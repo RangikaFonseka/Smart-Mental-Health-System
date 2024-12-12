@@ -1,0 +1,92 @@
+
+        .footer {
+            font-size:125% ;
+            
+            
+            color: black;
+            padding: 40px 0;
+            text-align: center;
+             background-image:none;
+             background-color: #Cceeff;
+            
+        }
+        .footer-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .footer-section {
+            margin-bottom: 20px;
+        }
+        .footer h5 {
+            margin-bottom: 15px;
+            font-size: 18px;
+            padding-left: 10px;
+            border-left: 3px solid #eeeeee;
+        }
+        .footer p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .footer a {
+            color: black;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            color: #f8f9fa;
+        }
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer ul li {
+            margin-bottom: 10px;
+        }
+        .footer ul.social li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+        .footer ul.social li a i {
+            font-size: 25px;
+            transition: 0.5s all ease;
+        }
+        .footer ul.social li:hover a i {
+            font-size: 30px;
+            margin-top: -10px;
+        }
+        .footer ul.quick-links li {
+            transition: 0.5s all ease;
+        }
+        .footer ul.quick-links li:hover {
+            margin-left: 5px;
+            font-weight: 700;
+        }
+        .footer ul.quick-links li a i {
+            margin-right: 5px;
+        }
+        .footer-bottom {
+            margin-top: 20px;
+        }
+
+        @media (min-width: 768px) {
+
+            .footer{
+
+             background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+            }
+
+            .footer-container {
+                flex-direction: row;
+                justify-content: space-between;
+                text-align: left;
+            }
+            .footer-section {
+                width: 30%;
+            }
+            .footer-bottom {
+                text-align: center;
+                width: 100%;
+            }
+        }
